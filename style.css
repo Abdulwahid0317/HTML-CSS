@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+
+/* Navbar */
+
+.nav{
+    display: flex;
+    justify-content:space-between;
+    padding: 15px 100px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    box-shadow: 0 3px 7px 2px rgba(183, 183, 183, 0.438);
+}
+
+.nav h3{
+    font-weight: 90;
+    font-size: 15px;
+    letter-spacing: 5px;
+}
+.nav h3:hover{
+    background-color: 	rgb(216,216,216);
+
+}
+.navul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    letter-spacing: 5px;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+    padding: 8px 16px;
+   
+}
+.nav a:hover{
+    background-color: 	rgb(216,216,216);
+}
+/* Hero Section */
+.hero{
+    background-image: url(./imgs/hero.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+
+.hero h2{
+    margin: 20px;
+    font-size: 40px;
+    color: #000000b5;
+    font-weight: 300;
+    letter-spacing: 5px;
+}
+
+
+/* About Section */
+
+.about{
+    display: flex;
+    padding: 70px 80px;
+    gap: 30px;
+}
+.aboutimg img{
+    width: 500px;
+
+}
+
+
+.about .about_content{
+    text-align: center;
+    padding: 10px;
+}
+
+.about_content h1{
+    font-size: 36px;
+    font-weight: 300;
+    letter-spacing: 4px;
+    margin-bottom: 40px;
+}
+
+.about_content p{
+text-align:justify;
+}
+
+.about_content .sub_heading{
+    font-size: 18px;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.about_content .desc{
+    margin-bottom: 20px;
+    color: #000000;
+    font-size: 18px;
+    font-family: 'Times New Roman', Georgia, serif;
+}
+.about_content .desc2{
+    margin-bottom: 20px;
+    color: #757575;
+    font-size: 18px;
+    font-family: 'Times New Roman', Georgia, serif;}
+    
+.desc span{
+    background-color:#f1f1f1;
+
+}
+
+/* menu section */
+
+.menu{
+    display: flex;
+    gap: 30px;
+    padding: 70px 80px;
+}
+
+.menudiv{
+    text-align: left;
+}
+
+.menudiv h1{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    margin-bottom: 40px;
+    
+}
+
+
+.menudiv .head7{
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 7px;
+}
+
+.menudiv p{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 13px;
+}
+.imgmenu img{ 
+    width: 501px;
+
+}
+
+/* contact section */
+
+.contact{
+    padding: 70px 80px;
+}
+.contactdiv h3{
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    margin-bottom: 70px;
+}
+
+.contact .contactdiv p{
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+
+.contact .contactdiv .p2{
+    color: #467086;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+
+.contact .contactdiv input{
+   font-size: 16px;
+    padding: 20px 15px;
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid rgb(212, 212, 212);
+   
+    
+}
+
+
+.contact .contactdiv button{
+    height: 40px;
+    width: 150px;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.contact .contactdiv button:hover{
+    background-color: rgb(203, 203, 203);
+}
+
+
+footer{
+    text-align: center;
+    background-color: #e2e2e2;
+    padding: 50px 0;
+    font-size: 14px;
+}
+
+footer a{
+    color: #000000;
+}
+
+footer a:hover{
+    color: rgb(0, 189, 0);
+}
